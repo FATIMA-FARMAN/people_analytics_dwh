@@ -1,0 +1,46 @@
+req_id,department,location,role_title,open_date,close_date
+R2000,Operations,Riyadh,Product Analyst,2025-05-16,
+R2001,Operations,Dubai,Product Analyst,2025-10-06,
+R2002,Product,Riyadh,People Analyst,2025-03-09,2025-12-18
+R2003,Engineering,Riyadh,Product Analyst,2025-02-12,2025-10-26
+R2004,Engineering,Riyadh,People Analyst,2025-03-07,2025-09-29
+R2005,Product,Dubai,Product Analyst,2025-04-07,2025-12-05
+R2006,Customer Support,Riyadh,Ops Analyst,2025-07-10,2025-12-06
+R2007,Engineering,Riyadh,Product Analyst,2025-05-17,2025-08-22
+R2008,Operations,Remote,Product Analyst,2025-04-08,
+R2009,Customer Support,Dubai,People Analyst,2025-01-26,2025-02-22
+R2010,Engineering,Dubai,People Analyst,2025-04-10,2025-12-13
+R2011,Risk,Remote,People Analyst,2025-09-28,2025-12-19
+R2012,Operations,Riyadh,Data Analyst,2025-10-15,2025-11-14
+R2013,Engineering,Dubai,Risk Analyst,2025-06-23,2025-10-08
+R2014,Operations,Riyadh,People Analyst,2025-03-30,2025-10-16
+R2015,Risk,Dubai,Ops Analyst,2025-07-26,2025-08-28
+R2016,Product,Riyadh,Product Analyst,2025-05-21,2025-11-17
+R2017,Risk,Riyadh,Risk Analyst,2024-12-27,
+R2018,Product,Remote,Risk Analyst,2025-04-29,
+R2019,Customer Support,Remote,Ops Analyst,2025-05-16,2025-09-30
+R2020,Operations,Riyadh,Risk Analyst,2025-06-20,2025-08-14
+R2021,People,Remote,Data Analyst,2025-07-26,
+R2022,Operations,Remote,Ops Analyst,2025-01-22,2025-11-23
+R2023,Risk,Riyadh,Ops Analyst,2025-05-01,2025-07-01
+R2024,Operations,Riyadh,Product Analyst,2025-01-02,2025-11-26
+R2025,Customer Support,Riyadh,Ops Analyst,2025-07-19,2025-11-30
+R2026,Customer Support,Riyadh,Ops Analyst,2025-01-16,2025-09-06
+R2027,People,Riyadh,Product Analyst,2025-01-22,
+R2028,Engineering,Dubai,Risk Analyst,2025-07-19,2025-12-05
+R2029,Engineering,Riyadh,Product Analyst,2025-03-29,2025-06-09
+R2030,Data,Remote,Data Analyst,2025-04-09,
+R2031,Customer Support,Remote,Product Analyst,2025-10-28,2025-11-08
+R2032,Product,Riyadh,Product Analyst,2025-10-19,2025-12-01
+R2033,Engineering,Remote,Product Analyst,2025-02-19,2025-09-04
+R2034,Risk,Remote,Ops Analyst,2025-08-01,2025-09-03
+R2035,Data,Remote,Ops Analyst,2025-05-18,
+R2036,Data,Dubai,Risk Analyst,2025-02-16,2025-06-05
+R2037,People,Dubai,People Analyst,2025-11-12,2025-11-27
+R2038,People,Dubai,Data Analyst,2025-02-27,2025-06-30
+R2039,Data,Dubai,Ops Analyst,2025-06-13,2025-07-28
+R2040,Product,Riyadh,Product Analyst,2025-04-13,
+R2041,Engineering,Dubai,Ops Analyst,2025-05-28,2025-07-03
+R2042,People,Riyadh,People Analyst,2025-04-06,
+R2043,Engineering,Riyadh,Data Analyst,2025-05-01,
+R2044,Risk,Dubai,People Analyst,2025-05-21,

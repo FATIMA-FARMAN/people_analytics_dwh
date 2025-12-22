@@ -1,0 +1,20 @@
+employee_id,termination_date,termination_reason
+E1007,2024-07-14,Voluntary
+E1043,2025-09-14,Voluntary
+E1048,2025-02-06,Performance
+E1054,2024-11-18,Performance
+E1069,2024-12-31,End of Contract
+E1071,2025-10-07,Role Change
+E1072,2025-02-08,Role Change
+E1084,2025-12-09,Role Change
+E1088,2025-09-17,Performance
+E1101,2025-05-17,Role Change
+E1102,2025-06-23,Voluntary
+E1108,2025-07-30,End of Contract
+E1120,2025-12-02,Role Change
+E1125,2025-09-01,End of Contract
+E1153,2025-03-01,End of Contract
+E1167,2025-10-08,Role Change
+E1174,2025-11-04,Voluntary
+E1189,2025-08-19,End of Contract
+E1190,2024-12-28,Role Change

@@ -1,0 +1,221 @@
+employee_id,department,location,job_level,manager_id,hire_date
+E1000,Engineering,Riyadh,Specialist,E1175,2024-11-04
+E1001,Risk,Dubai,Specialist,E1196,2024-05-28
+E1002,Engineering,Dubai,Senior Analyst,E1025,2025-02-24
+E1003,Engineering,Riyadh,Analyst,E1067,2025-09-30
+E1004,Operations,Riyadh,Specialist,E1211,2025-09-21
+E1005,Customer Support,Riyadh,Analyst,E1151,2025-07-24
+E1006,Operations,Riyadh,Manager,E1103,2024-03-16
+E1007,Customer Support,Dubai,Senior Analyst,E1092,2023-12-27
+E1008,Product,Remote,Analyst,E1185,2024-05-16
+E1009,Operations,Remote,Specialist,E1142,2025-11-20
+E1010,Operations,Remote,Analyst,E1023,2025-05-04
+E1011,Operations,Remote,Senior Analyst,E1072,2024-08-05
+E1012,Customer Support,Riyadh,Analyst,E1089,2024-07-10
+E1013,Engineering,Dubai,Analyst,E1110,2024-06-25
+E1014,Customer Support,Riyadh,Manager,E1042,2024-01-15
+E1015,People,Dubai,Manager,E1218,2025-04-03
+E1016,Data,Remote,Analyst,E1136,2024-03-11
+E1017,Engineering,Riyadh,Analyst,E1167,2024-12-03
+E1018,Engineering,Remote,Analyst,E1068,2025-08-11
+E1019,Operations,Riyadh,Analyst,E1176,2025-02-24
+E1020,Operations,Riyadh,Specialist,E1127,2025-02-28
+E1021,Operations,Remote,Analyst,E1135,2024-02-09
+E1022,Customer Support,Remote,Senior Analyst,E1172,2025-06-19
+E1023,Data,Dubai,Analyst,E1000,2024-12-07
+E1024,Engineering,Riyadh,Analyst,E1075,2024-05-12
+E1025,Operations,Remote,Specialist,E1055,2025-02-15
+E1026,Data,Remote,Manager,E1006,2024-03-28
+E1027,Operations,Remote,Manager,E1019,2024-07-22
+E1028,People,Dubai,Analyst,E1188,2025-04-21
+E1029,Operations,Remote,Analyst,E1044,2024-01-06
+E1030,Engineering,Riyadh,Senior Analyst,E1191,2025-07-31
+E1031,Engineering,Riyadh,Analyst,,2025-06-21
+E1032,People,Riyadh,Specialist,E1056,2025-09-19
+E1033,Risk,Remote,Manager,E1152,2025-10-24
+E1034,Data,Remote,Analyst,E1183,2025-03-23
+E1035,People,Riyadh,Analyst,E1181,2025-02-03
+E1036,Engineering,Riyadh,Analyst,E1112,2025-10-22
+E1037,Customer Support,Dubai,Manager,E1189,2024-04-12
+E1038,Customer Support,Riyadh,Senior Analyst,E1192,2024-06-14
+E1039,Customer Support,Remote,Specialist,E1034,2024-02-16
+E1040,Engineering,Dubai,Senior Analyst,E1056,2025-07-22
+E1041,Risk,Dubai,Senior Analyst,E1201,2025-03-07
+E1042,Engineering,Riyadh,Specialist,E1206,2025-01-02
+E1043,Engineering,Dubai,Analyst,E1038,2024-04-08
+E1044,Risk,Riyadh,Senior Analyst,E1004,2025-03-19
+E1045,People,Riyadh,Specialist,E1137,2025-03-24
+E1046,Customer Support,Remote,Senior Analyst,E1087,2024-08-28
+E1047,Engineering,Remote,Analyst,E1195,2024-09-05
+E1048,Product,Dubai,Specialist,E1072,2024-07-22
+E1049,Operations,Riyadh,Manager,,2025-04-11
+E1050,People,Remote,Analyst,E1176,2025-08-14
+E1051,People,Riyadh,Specialist,E1001,2024-05-31
+E1052,Data,Riyadh,Specialist,E1192,2025-07-31
+E1053,People,Riyadh,Senior Analyst,E1144,2025-08-21
+E1054,Engineering,Riyadh,Senior Analyst,E1118,2024-04-17
+E1055,Customer Support,Riyadh,Manager,E1159,2024-05-28
+E1056,Engineering,Dubai,Analyst,E1093,2025-01-10
+E1057,Product,Riyadh,Senior Analyst,E1172,2025-02-01
+E1058,Product,Riyadh,Analyst,E1092,2024-12-28
+E1059,Risk,Dubai,Specialist,E1071,2024-12-16
+E1060,Operations,Riyadh,Specialist,E1023,2024-08-06
+E1061,People,Dubai,Analyst,E1010,2025-05-31
+E1062,Operations,Riyadh,Specialist,E1035,2025-03-25
+E1063,Data,Dubai,Specialist,E1192,2024-04-26
+E1064,Risk,Dubai,Senior Analyst,,2025-08-07
+E1065,Customer Support,Remote,Analyst,E1135,2024-08-14
+E1066,Product,Riyadh,Analyst,E1151,2025-02-18
+E1067,Customer Support,Dubai,Analyst,E1092,2024-09-20
+E1068,Risk,Remote,Specialist,E1149,2025-10-29
+E1069,Product,Riyadh,Analyst,E1100,2024-10-07
+E1070,Data,Riyadh,Analyst,E1163,2024-08-12
+E1071,Engineering,Riyadh,Specialist,E1067,2024-11-26
+E1072,Data,Riyadh,Manager,E1123,2024-11-27
+E1073,Engineering,Dubai,Senior Analyst,E1219,2024-01-03
+E1074,Data,Remote,Analyst,E1019,2023-12-30
+E1075,Engineering,Dubai,Senior Analyst,E1155,2025-10-11
+E1076,Product,Dubai,Analyst,E1004,2024-11-05
+E1077,Data,Remote,Senior Analyst,E1019,2025-02-06
+E1078,Customer Support,Remote,Manager,E1033,2024-03-20
+E1079,Data,Riyadh,Senior Analyst,E1123,2024-10-14
+E1080,Data,Remote,Analyst,E1030,2025-02-06
+E1081,Operations,Riyadh,Analyst,E1185,2025-07-21
+E1082,Customer Support,Remote,Analyst,E1073,2025-07-04
+E1083,Product,Remote,Senior Analyst,E1209,2025-09-23
+E1084,Operations,Remote,Senior Analyst,E1127,2024-07-31
+E1085,Engineering,Remote,Analyst,,2024-10-21
+E1086,People,Dubai,Manager,E1130,2025-06-07
+E1087,Customer Support,Riyadh,Analyst,E1083,2024-01-26
+E1088,Data,Dubai,Specialist,E1178,2025-07-06
+E1089,Operations,Remote,Specialist,E1146,2025-03-06
+E1090,Operations,Remote,Analyst,E1021,2024-09-22
+E1091,Customer Support,Riyadh,Analyst,E1119,2024-03-01
+E1092,Data,Riyadh,Analyst,,2025-06-06
+E1093,Data,Riyadh,Specialist,E1203,2025-08-03
+E1094,Operations,Remote,Senior Analyst,E1186,2025-02-18
+E1095,Product,Dubai,Specialist,E1047,2025-04-09
+E1096,Customer Support,Remote,Senior Analyst,E1016,2025-06-27
+E1097,Customer Support,Riyadh,Analyst,E1012,2024-09-15
+E1098,Engineering,Dubai,Senior Analyst,E1093,2025-06-21
+E1099,People,Riyadh,Senior Analyst,E1107,2024-06-26
+E1100,Customer Support,Dubai,Analyst,E1137,2025-04-25
+E1101,Risk,Remote,Analyst,E1076,2024-08-04
+E1102,Risk,Riyadh,Specialist,E1067,2025-04-21
+E1103,Operations,Dubai,Analyst,E1110,2024-05-05
+E1104,Data,Remote,Specialist,E1142,2024-03-08
+E1105,Risk,Riyadh,Senior Analyst,E1124,2024-07-06
+E1106,Engineering,Remote,Senior Analyst,E1020,2025-06-18
+E1107,Operations,Riyadh,Analyst,E1053,2024-08-27
+E1108,Data,Dubai,Analyst,,2024-08-02
+E1109,Product,Remote,Analyst,E1059,2025-06-09
+E1110,People,Riyadh,Senior Analyst,E1035,2024-04-21
+E1111,Data,Dubai,Senior Analyst,E1048,2024-06-07
+E1112,Operations,Riyadh,Senior Analyst,,2024-09-19
+E1113,Engineering,Dubai,Senior Analyst,E1043,2024-05-28
+E1114,Risk,Remote,Specialist,E1200,2025-03-29
+E1115,Product,Remote,Analyst,E1218,2025-09-02
+E1116,Risk,Riyadh,Specialist,E1054,2024-06-26
+E1117,Data,Remote,Analyst,E1043,2024-12-17
+E1118,Operations,Remote,Analyst,E1215,2025-10-05
+E1119,Engineering,Remote,Senior Analyst,E1205,2025-03-10
+E1120,Risk,Riyadh,Analyst,E1178,2025-05-08
+E1121,Data,Remote,Specialist,E1039,2024-05-16
+E1122,People,Riyadh,Analyst,E1131,2025-11-14
+E1123,Data,Riyadh,Analyst,E1157,2025-10-27
+E1124,Risk,Remote,Manager,E1140,2024-05-23
+E1125,Customer Support,Riyadh,Analyst,E1204,2025-06-06
+E1126,Product,Riyadh,Analyst,E1079,2024-05-23
+E1127,Engineering,Riyadh,Analyst,E1029,2024-03-21
+E1128,Operations,Dubai,Specialist,E1136,2025-01-31
+E1129,People,Riyadh,Analyst,E1054,2024-01-28
+E1130,Product,Riyadh,Senior Analyst,E1166,2024-08-21
+E1131,Data,Riyadh,Specialist,E1117,2024-12-30
+E1132,Product,Dubai,Specialist,E1198,2024-03-24
+E1133,Data,Riyadh,Analyst,E1149,2025-04-08
+E1134,Engineering,Remote,Senior Analyst,E1044,2024-09-01
+E1135,People,Riyadh,Specialist,,2024-03-25
+E1136,Product,Dubai,Senior Analyst,E1135,2024-12-13
+E1137,Operations,Riyadh,Specialist,E1209,2024-03-29
+E1138,People,Dubai,Senior Analyst,E1197,2024-11-23
+E1139,People,Riyadh,Specialist,E1100,2025-07-30
+E1140,Product,Remote,Senior Analyst,E1180,2025-05-25
+E1141,People,Riyadh,Senior Analyst,E1169,2025-01-14
+E1142,People,Remote,Manager,E1029,2025-03-03
+E1143,Data,Remote,Analyst,E1026,2024-10-25
+E1144,Customer Support,Dubai,Specialist,E1064,2025-04-23
+E1145,Customer Support,Dubai,Analyst,E1190,2024-11-29
+E1146,Customer Support,Riyadh,Senior Analyst,E1214,2024-11-01
+E1147,Engineering,Riyadh,Analyst,E1012,2025-08-20
+E1148,Operations,Riyadh,Analyst,E1134,2024-01-16
+E1149,Engineering,Remote,Specialist,E1162,2025-03-10
+E1150,Customer Support,Riyadh,Manager,E1187,2025-08-08
+E1151,Product,Dubai,Analyst,E1106,2024-01-01
+E1152,Operations,Dubai,Specialist,E1110,2024-07-16
+E1153,Product,Dubai,Specialist,E1116,2024-10-31
+E1154,Engineering,Remote,Specialist,E1093,2024-10-20
+E1155,Product,Remote,Manager,E1017,2024-08-13
+E1156,People,Riyadh,Senior Analyst,,2024-09-17
+E1157,Product,Riyadh,Senior Analyst,E1079,2024-04-13
+E1158,Operations,Riyadh,Analyst,E1049,2024-11-13
+E1159,Product,Riyadh,Senior Analyst,E1182,2024-05-07
+E1160,Data,Dubai,Senior Analyst,E1076,2025-09-10
+E1161,Operations,Riyadh,Analyst,E1105,2025-02-11
+E1162,Product,Remote,Analyst,E1182,2025-01-07
+E1163,Operations,Remote,Senior Analyst,E1175,2024-07-21
+E1164,People,Riyadh,Analyst,E1165,2024-08-06
+E1165,Customer Support,Remote,Senior Analyst,E1201,2024-10-28
+E1166,Risk,Riyadh,Senior Analyst,E1087,2024-04-26
+E1167,Risk,Riyadh,Senior Analyst,E1149,2025-07-16
+E1168,Customer Support,Remote,Specialist,E1004,2024-03-29
+E1169,Risk,Riyadh,Analyst,E1219,2025-06-26
+E1170,Risk,Remote,Analyst,E1076,2025-09-30
+E1171,People,Dubai,Manager,E1075,2024-01-18
+E1172,Engineering,Riyadh,Senior Analyst,E1006,2025-10-23
+E1173,Engineering,Dubai,Senior Analyst,E1120,2025-06-10
+E1174,Data,Riyadh,Analyst,E1213,2025-09-24
+E1175,Risk,Remote,Analyst,E1085,2025-08-11
+E1176,People,Riyadh,Specialist,E1158,2024-08-11
+E1177,People,Riyadh,Analyst,E1107,2024-04-15
+E1178,Engineering,Riyadh,Specialist,E1056,2025-01-09
+E1179,Product,Remote,Senior Analyst,E1051,2025-11-07
+E1180,Customer Support,Remote,Manager,E1183,2025-08-15
+E1181,Engineering,Dubai,Specialist,E1121,2024-08-26
+E1182,Risk,Riyadh,Manager,E1140,2025-03-21
+E1183,Data,Dubai,Manager,E1076,2024-09-26
+E1184,Data,Riyadh,Senior Analyst,E1109,2024-12-20
+E1185,Engineering,Remote,Manager,E1164,2025-05-27
+E1186,Customer Support,Remote,Senior Analyst,E1199,2025-06-19
+E1187,Engineering,Riyadh,Analyst,E1085,2025-07-17
+E1188,Engineering,Riyadh,Manager,E1186,2025-09-30
+E1189,Customer Support,Riyadh,Specialist,E1041,2024-04-12
+E1190,Engineering,Riyadh,Analyst,E1143,2024-07-28
+E1191,Engineering,Riyadh,Specialist,E1043,2024-08-05
+E1192,Product,Riyadh,Specialist,E1059,2024-06-29
+E1193,Risk,Riyadh,Analyst,,2025-01-06
+E1194,Operations,Remote,Analyst,E1063,2025-11-22
+E1195,Operations,Dubai,Senior Analyst,E1156,2024-07-17
+E1196,Engineering,Dubai,Analyst,E1144,2025-04-18
+E1197,Customer Support,Riyadh,Senior Analyst,,2024-08-30
+E1198,Product,Riyadh,Senior Analyst,,2024-04-27
+E1199,Engineering,Riyadh,Manager,,2024-12-02
+E1200,Data,Riyadh,Manager,E1032,2024-04-29
+E1201,People,Dubai,Senior Analyst,E1117,2025-08-19
+E1202,Operations,Riyadh,Specialist,E1215,2025-01-29
+E1203,Engineering,Riyadh,Analyst,E1161,2024-04-26
+E1204,People,Remote,Senior Analyst,E1045,2025-10-11
+E1205,Data,Remote,Analyst,E1168,2024-11-23
+E1206,Risk,Dubai,Manager,E1116,2024-07-01
+E1207,Product,Dubai,Senior Analyst,E1219,2024-11-07
+E1208,People,Dubai,Specialist,E1142,2025-02-21
+E1209,Customer Support,Riyadh,Manager,E1045,2024-03-01
+E1210,Engineering,Dubai,Senior Analyst,E1105,2024-05-27
+E1211,People,Remote,Senior Analyst,,2025-11-10
+E1212,Engineering,Riyadh,Specialist,E1096,2025-01-18
+E1213,Engineering,Riyadh,Analyst,E1034,2024-03-17
+E1214,Product,Remote,Specialist,E1095,2025-09-15
+E1215,Risk,Remote,Analyst,E1112,2024-12-22
+E1216,Risk,Remote,Analyst,,2024-09-26
+E1217,Engineering,Remote,Senior Analyst,E1146,2025-01-21
+E1218,Customer Support,Riyadh,Analyst,,2024-09-27
+E1219,Engineering,Dubai,Manager,E1201,2025-10-30
