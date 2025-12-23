@@ -112,6 +112,20 @@ Files in `/data`:
 - Offer Acceptance Rate
 - Hiring Funnel Conversion
 
+## Overview
+(…your overview text…)
+
+## Data Quality Checks
+
+Run checks:
+- `sql/analysis/DATA_QUALITY_CHECKS.sql`
+
+View latest results:
+- `sql/analysis/VIEW_DQ_RESULTS.sql`
+
+Results table:
+- `people_analytics.dq_results`
+
 ## Next milestones
 - [ ] Load data into BigQuery + build staging tables
 - [ ] Create marts (facts/dims) for headcount, attrition, funnel
