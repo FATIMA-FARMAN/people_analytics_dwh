@@ -11,9 +11,9 @@ This repo demonstrates an end-to-end analytics workflow: **HRIS + ATS → modele
 
 ---
 
-## Live Dashboard
-- Looker Studio (public): **TBD**
-- Screenshots: see `/assets`
+## Live Dashboard (Looker Studio)
+View-only link: https://lookerstudio.google.com/s/qtmtqTS2tmc
+
 
 ![Executive Overview](assets/hero_executive_overview.png)
 
