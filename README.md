@@ -26,9 +26,14 @@ View-only link: https://lookerstudio.google.com/s/qtmtqTS2tmc
 ---
 
 ## Architecture
-**Source systems (simulated):**
-- HRIS: employees, terminations
-- ATS: requisitions, applications, stage events, offers
+
+HRIS (Employees, Attrition, Performance)
+ATS (Candidates, Hiring Funnel)
+        ↓
+BigQuery (people_analytics_dwh)
+        ↓
+Looker Studio (Executive Dashboard)
+
 
 **Pipeline:**
 1) CSV sources → BigQuery staging  
@@ -82,6 +87,15 @@ Files in `/data`:
 - Data quality checks: `sql/analysis/DATA_QUALITY_CHECKS.sql`
 
 ---
+## Executive KPIs
+
+- Active Headcount
+- Net Headcount Growth
+- Attrition Rate (Voluntary / Involuntary)
+- Attrition Risk by Department & Tenure
+- Time-to-Hire
+- Offer Acceptance Rate
+- Hiring Funnel Conversion
 
 ## Next milestones
 - [ ] Load data into BigQuery + build staging tables
