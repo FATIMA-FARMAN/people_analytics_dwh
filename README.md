@@ -15,8 +15,6 @@ This repo demonstrates an end-to-end analytics workflow: **HRIS + ATS → modele
 View-only link: https://lookerstudio.google.com/s/qtmtqTS2tmc
 
 
-![Executive Overview](assets/hero_executive_overview.png)
-
 ---
 
 ## Architecture
