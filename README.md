@@ -10,21 +10,6 @@ People Tech leaders need fast, reliable answers to:
 This repo demonstrates an end-to-end analytics workflow: **HRIS + ATS → modeled warehouse tables → executive dashboards**.
 
 ---
-
-## Live Dashboard (Looker Studio)
-View-only link: https://lookerstudio.google.com/s/qtmtqTS2tmc
- ### Screenshots
-## Screenshots
-### Executive Overview
-![Executive Overview](Screenshot%202025-12-23%20at%2005.31.30.png)
-### Attrition + Bottleneck
-![Attrition + Bottleneck](Screenshot%202025-12-23%20at%2005.31.37.png)
-### Hiring Funnel
-![Hiring Funnel](Screenshot%202025-12-23%20at%2005.31.44.png)
-
-
----
-
 ## Architecture
 
 HRIS (Employees, Attrition, Performance)
@@ -55,6 +40,20 @@ Looker Studio (Executive Dashboard)
 1) CSV sources → BigQuery staging  
 2) SQL transformations → marts (facts/dims)  
 3) Looker Studio dashboard → Executive KPIs + drilldowns
+---
+
+## Live Dashboard (Looker Studio)
+View-only link: https://lookerstudio.google.com/s/qtmtqTS2tmc
+ ### Screenshots
+## Screenshots
+### Executive Overview
+![Executive Overview](Screenshot%202025-12-23%20at%2005.31.30.png)
+### Attrition + Bottleneck
+![Attrition + Bottleneck](Screenshot%202025-12-23%20at%2005.31.37.png)
+### Hiring Funnel
+![Hiring Funnel](Screenshot%202025-12-23%20at%2005.31.44.png)
+
+
 
 ---
 
