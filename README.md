@@ -13,6 +13,10 @@ This repo demonstrates an end-to-end analytics workflow: **HRIS + ATS → modele
 
 ## Live Dashboard (Looker Studio)
 View-only link: https://lookerstudio.google.com/s/qtmtqTS2tmc
+ ### Screenshots
+![Executive Overview](assets/01_exec_overview.png)
+![Attrition + Bottleneck](assets/02_attrition_bottleneck.png)
+![Hiring Funnel](assets/03_hiring_funnel.png)
 
 
 ---
