@@ -113,15 +113,17 @@ Files in `/data`:
 - Hiring Funnel Conversion
 
 ## Overview
-(…your overview text…)
-
+This project builds a lightweight People Analytics data warehouse in BigQuery and a set of executive-ready reporting tables (headcount, attrition, hiring funnel, offer accept).
+It includes repeatable SQL pipelines plus data quality checks that produce PASS/WARN/FAIL outputs for key tables and columns.
+ - [sql/analysis/DATA_QUALITY_CHECKS.sql](sql/analysis/DATA_QUALITY_CHECKS.sql)
+- [sql/analysis/VIEW_DQ_RESULTS.sql](sql/analysis/VIEW_DQ_RESULTS.sql)
 ## Data Quality Checks
 
 Run checks:
-- `sql/analysis/DATA_QUALITY_CHECKS.sql`
+- [sql/analysis/DATA_QUALITY_CHECKS.sql](sql/analysis/DATA_QUALITY_CHECKS.sql)
 
 View latest results:
-- `sql/analysis/VIEW_DQ_RESULTS.sql`
+- [sql/analysis/VIEW_DQ_RESULTS.sql](sql/analysis/VIEW_DQ_RESULTS.sql)
 
 Results table:
 - `people_analytics.dq_results`
