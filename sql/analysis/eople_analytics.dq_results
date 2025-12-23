@@ -1,0 +1,4 @@
+-- View latest Data Quality results
+SELECT *
+FROM `people_analytics.dq_results`
+ORDER BY run_ts DESC, status DESC;
