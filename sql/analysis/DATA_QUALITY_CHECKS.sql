@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 -- =====================================================================
 -- People Analytics DWH — Data Quality Checks (BigQuery)
 -- Writes results to: `<project>.<dataset>.dq_results`
@@ -155,3 +156,38 @@ FROM `${project_id}.${dataset_id}.dq_results`
 WHERE run_id = run_id
   AND status IN ('FAIL', 'WARN')
 ORDER BY status DESC, check_name, table_name, column_name;
+=======
+-- People Analytics DWH - Data Quality Checks
+-- Dataset: core-rhythm-462516-n5.people_analytics
+
+-- A) Confirm object types (prevents table/view confusion)
+SELECT table_name, table_type
+FROM `core-rhythm-462516-n5.people_analytics.INFORMATION_SCHEMA.TABLES`
+WHERE table_name IN ('rpt_offer_accept_overall','rpt_hiring_funnel_req')
+ORDER BY table_name;
+
+-- B) Offer accept sanity (0..1) and made >= accepted
+SELECT
+  offer_accept_rate,
+  offers_accepted,
+  offers_made,
+  refreshed_at,
+  (offer_accept_rate < 0 OR offer_accept_rate > 1) AS bad_rate,
+  (offers_made < offers_accepted) AS bad_counts
+FROM `core-rhythm-462516-n5.people_analytics.rpt_offer_accept_overall`;
+
+-- C) Funnel sanity: no negative stage counts (adjust column names if needed)
+SELECT
+  COUNT(*) AS bad_rows
+FROM `core-rhythm-462516-n5.people_analytics.rpt_hiring_funnel_req`
+WHERE
+  applications < 0 OR interviews < 0 OR offers_made < 0 OR offers_accepted < 0;
+
+-- D) Orphan checks (adjust join keys if your schema differs)
+SELECT
+  COUNT(*) AS orphan_offers
+FROM `core-rhythm-462516-n5.people_analytics.fact_offers f`
+LEFT JOIN `core-rhythm-462516-n5.people_analytics.dim_requisition r`
+  ON f.requisition_id = r.requisition_id
+WHERE r.requisition_id IS NULL;
+>>>>>>> 3857335 (Add DQ checks and results viewer query)
