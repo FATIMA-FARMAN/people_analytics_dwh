@@ -34,6 +34,22 @@ BigQuery (people_analytics_dwh)
         ↓
 Looker Studio (Executive Dashboard)
 
+## How to run (BigQuery)
+
+1. Install Google Cloud SDK (includes `bq`) and authenticate:
+   - `gcloud auth login`
+   - `gcloud auth application-default login`
+2. Set your GCP project:
+   - `gcloud config set project <PROJECT_ID>`
+3. From the repo root, run the loader + model runner:
+   - `bash scripts/bq_run_all.sh <PROJECT_ID> people_analytics_dwh US`
+4. Confirm tables/views were created:
+   - `bq --project_id=<PROJECT_ID> ls people_analytics_dwh`
+   - You should see `stg_*`, `dim_*`, `fact_*`, `rpt_*`
+5. Open Looker Studio → Create → Data Source → BigQuery
+6. Select dataset: `people_analytics_dwh`
+7. Use the `rpt_*` views as dashboard sources (recommended)
+8. Refresh data + validate the dashboard screenshots match the `assets/` images.
 
 **Pipeline:**
 1) CSV sources → BigQuery staging  
