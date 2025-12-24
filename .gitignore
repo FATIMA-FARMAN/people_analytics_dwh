@@ -5,3 +5,4 @@ __pycache__/
 .venv/
 .env
 people_analytics_dwh/
+backup_local_untracked/
