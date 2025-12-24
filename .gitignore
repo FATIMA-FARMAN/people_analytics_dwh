@@ -6,3 +6,21 @@ __pycache__/
 .env
 people_analytics_dwh/
 backup_local_untracked/
+
+# OS
+.DS_Store
+
+# Secrets
+.env
+*.key
+*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local data (keep only data/sample in Git)
+data/raw/
+data/tmp/
