@@ -52,7 +52,28 @@ View-only link: https://lookerstudio.google.com/s/qtmtqTS2tmc
 ![Attrition + Bottleneck](Screenshot%202025-12-23%20at%2005.31.37.png)
 ### Hiring Funnel
 ![Hiring Funnel](Screenshot%202025-12-23%20at%2005.31.44.png)
+ 
+## Screenshots
 
+!### Early Attrition (0–90 days)
+Preview of `rpt_early_attrition_0_90` aggregated by department, location, and manager.
+![Early Attrition](assets/screenshots/06_early_attrition_preview.png)
+### Attrition by Department
+Aggregated attrition by department with terminations and total headcount.
+![Attrition by Department](assets/screenshots/03_attrition_by_department.png)
+### Headcount Snapshot (Current)
+Active headcount by department, location, and job level (leadership-friendly slice for workforce planning).
+![Headcount Current](assets/screenshots/01_headcount_current.png)
+### Hiring Funnel (by Requisition)
+ATS funnel table at requisition level (req_id, department, location, role_title) used to compute funnel conversion + bottlenecks.
+![Hiring Funnel by Requisition](assets/screenshots/04_hiring_funnel_by_requisition.png)
+### Offer Acceptance (Overall)
+High-level offer acceptance KPI to monitor hiring health and candidate experience.
+![Offer Acceptance Overall](assets/screenshots/06_offer_accept_overall.png)
+### Pipeline Bottlenecks (Stage Time)
+Identifies slow stages in the hiring pipeline using average and p90 days-in-stage to surface bottlenecks.
+![Stage Bottlenecks Summary](assets/screenshots/07b_stage_bottlenecks_summary.png)
+![Stage Bottlenecks by Requisition](assets/screenshots/07_stage_bottlenecks_by_req.png)
 
 
 ---
