@@ -24,3 +24,4 @@ venv/
 # Local data (keep only data/sample in Git)
 data/raw/
 data/tmp/
+_backup_local_untracked/
