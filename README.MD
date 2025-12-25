@@ -29,10 +29,10 @@ This repository demonstrates an end-to-end People Analytics workflow:
 ## Dashboard screenshots
 
 ### Executive Overview
-![Executive Overview](assets/executive_overview.png)
+‎assets/hero_executive_overview.png‎ 
 
 ### Hiring Funnel
-![Hiring Funnel](assets/hiring_funnel.png)
+assets/03_hiring_funnel_by_req.png
 
 
 ## Architecture
