@@ -1,0 +1,45 @@
+r#!/usr/bin/env bash
+set -euo pipefail
+
+PROJECT_ID="${1:-}"
+DATASET="${2:-}"
+LOCATION="${3:-US}"
+
+if [[ -z "$PROJECT_ID" || -z "$DATASET" ]]; then
+  echo "Usage: $0 <PROJECT_ID> <DATASET> [LOCATION]"
+  exit 1
+fi
+
+echo "Using PROJECT_ID=$PROJECT_ID DATASET=$DATASET LOCATION=$LOCATION"
+
+# Verify bq exists
+command -v bq >/dev/null 2>&1 || { echo "bq CLI not found. Install Google Cloud SDK and run 'gcloud auth login'."; exit 1; }
+
+# Ensure dataset exists
+bq --location="$LOCATION" ls "$PROJECT_ID:$DATASET" >/dev/null 2>&1 || \
+  bq --location="$LOCATION" mk --dataset "$PROJECT_ID:$DATASET"
+
+run_dir () {
+  local dir="$1"
+  if [[ ! -d "$dir" ]]; then
+    echo "Skip (missing): $dir"
+    return
+  fi
+
+  echo "Running SQL in: $dir"
+  # Run files in alphabetical order
+  while IFS= read -r -d '' f; do
+    echo "  -> $f"
+    bq --location="$LOCATION" query --use_legacy_sql=false \
+      --project_id="$PROJECT_ID" \
+      < "$f"
+  done < <(find "$dir" -type f -name "*.sql" -print0 | sort -z)
+}
+
+# Order matters: raw -> staging -> marts -> analysis checks
+run_dir "sql/raw"
+run_dir "sql/staging"
+run_dir "sql/marts"
+run_dir "sql/analysis"
+
+echo "DONE."
