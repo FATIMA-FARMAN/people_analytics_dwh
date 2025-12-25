@@ -26,6 +26,14 @@ This repository demonstrates an end-to-end People Analytics workflow:
 - **Dashboard:** Looker Studio  
   - Link: https://lookerstudio.google.com/u/0/reporting/04c08ab2-e090-491c-90aa-0bcd38c23988/page/pDU
 
+## Dashboard screenshots
+
+### Executive Overview
+![Executive Overview](assets/executive_overview.png)
+
+### Hiring Funnel
+![Hiring Funnel](assets/hiring_funnel.png)
+
 
 ## Architecture
 **Sources (HRIS, ATS) → Staging (stg_*) → Facts/Dimensions → Reports (rpt_*) → Looker Studio**
@@ -58,4 +66,7 @@ If using sample data, state it clearly (recommended for public repos).
   - `gcloud auth login`
   - `gcloud config set project <PROJECT_ID>`
 
+Example:
+```bash
+bash scripts/bq_run_all.sh core-rhythm-462516-n5 people_analytics US
 
